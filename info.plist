@@ -4,6 +4,11 @@
 <dict>
 	<key>name</key>
 	<string>CommonJS</string>
+	<key>ordering</key>
+	<array>
+		<string>FEEB136F-A1AF-4806-AD74-C34406F582DE</string>
+		<string>87133309-DA5C-4911-A464-BA8DECA1A2A8</string>
+	</array>
 	<key>uuid</key>
 	<string>ACE0DF43-1D6C-427A-B9F0-C486D2685024</string>
 </dict>

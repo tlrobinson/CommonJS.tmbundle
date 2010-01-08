@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>exports.$1 = function($2) {
-  $3
-};</string>
+	<string>var ${1/(\w*)[^\w]*(\w*)[^\w]*(\w*).*/\U$1\U$2\U$3/} = require("${1:module}");
+</string>
 	<key>name</key>
-	<string>untitled</string>
+	<string>require</string>
 	<key>tabTrigger</key>
-	<string>exp</string>
+	<string>req</string>
 	<key>uuid</key>
-	<string>FEEB136F-A1AF-4806-AD74-C34406F582DE</string>
+	<string>87133309-DA5C-4911-A464-BA8DECA1A2A8</string>
 </dict>
 </plist>
